@@ -29,7 +29,7 @@ public class Ejemplo09 {
         int tamanio = promedios.length;
         
         for (int i = 0; i < tamanio; i++) { // estudiantes.length 
-            mensajeFinal = String.format("%sEstudiante:%s - promedio: %.4f\n", 
+            mensajeFinal = String.format("%sEstudiante:%s - promedio: %.1f\n", 
                     mensajeFinal,
                     estudiantes[i].toUpperCase(),
                     promedios[i]);
