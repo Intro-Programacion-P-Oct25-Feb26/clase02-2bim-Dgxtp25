@@ -26,8 +26,9 @@ public class Ejemplo09 {
         String mensajeFinal = ""; // variable que acumula un reporte final
         // Se hace uso del ciclo repetitivo for para recorrer los arreglos
         // y presentar los valore de las posiciones
+        int tamanio = promedios.length;
         
-        for (int i = 0; i < promedios.length; i++) { // estudiantes.length 
+        for (int i = 0; i < tamanio; i++) { // estudiantes.length 
             mensajeFinal = String.format("%sEstudiante:%s - promedio: %.4f\n", 
                     mensajeFinal,
                     estudiantes[i].toUpperCase(),
